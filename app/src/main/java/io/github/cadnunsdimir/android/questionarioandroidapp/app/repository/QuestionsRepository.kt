@@ -1,4 +1,4 @@
-package io.github.cadnunsdimir.android.questionarioandroidapp.app.service
+package io.github.cadnunsdimir.android.questionarioandroidapp.app.repository
 
 import io.github.cadnunsdimir.android.questionarioandroidapp.app.enums.QuestionsLevel
 import io.github.cadnunsdimir.android.questionarioandroidapp.app.model.Question

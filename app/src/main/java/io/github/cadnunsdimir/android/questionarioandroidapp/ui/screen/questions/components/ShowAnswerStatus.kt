@@ -1,4 +1,4 @@
-package io.github.cadnunsdimir.android.questionarioandroidapp.ui.screen.home.components
+package io.github.cadnunsdimir.android.questionarioandroidapp.ui.screen.questions.components
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
