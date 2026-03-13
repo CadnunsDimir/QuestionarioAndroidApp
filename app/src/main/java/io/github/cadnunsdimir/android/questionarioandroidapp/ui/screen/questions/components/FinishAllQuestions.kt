@@ -21,13 +21,14 @@ fun FinishAllQuestions(questionsAnswered: MutableMap<Int, QuestionAnswerStatus>)
 
     Card (
         modifier = Modifier.fillMaxWidth()
-            .padding(10.dp)
+            .padding(vertical = 10.dp)
     ) {
         Column (
-            modifier = Modifier.padding(10.dp)
+            modifier = Modifier.padding(16.dp)
         ) {
             Text(phrase,
-                style = MaterialTheme.typography.titleLarge
+                style = MaterialTheme.typography.titleLarge,
+                modifier = Modifier.padding(bottom = 10.dp)
             )
             Text("Sua taxa de aproveitamento foi $percentAsInt %")
             Text("Você acertou $correctAnswers/${questionsAnswered.size} perguntas !")
